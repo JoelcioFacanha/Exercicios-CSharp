@@ -4,9 +4,9 @@ namespace ExercicioFixacao01.Entities
 {
     public class Pencionato
     {
-        public Student[] Quartos = new Student[10];
+        public Estudante[] Quartos = new Estudante[10];
 
-        public void Alugar(Student student, int numeroDoQuarto)
+        public void Alugar(Estudante student, int numeroDoQuarto)
         {
             Quartos[numeroDoQuarto] = student;
         }
